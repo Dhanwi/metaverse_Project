@@ -1,8 +1,5 @@
 import Head from 'next/head';
-
 import '../styles/globals.css';
-// import '../components/button.css';
-
 
 const MyApp = ({ Component, pageProps }) => (
   <>
