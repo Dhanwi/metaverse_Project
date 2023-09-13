@@ -23,7 +23,7 @@ const Footer = () => (
           type="button"
           className="shadow-xl shadow-[#7DF9FF] hover:shadow-[#00FFFF] flex items-center h-fit py-4 px-6 rounded-[32px] gap-[12px]"
         >
-          <a href="#">
+          <a href="/">
             <img
               src="/headset.svg"
               alt="headset"
