@@ -1,5 +1,4 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import { socials } from '../constants';
 
@@ -19,7 +18,8 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter the Metaverse
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button type="button" className="shadow-xl shadow[#7DF9FF] hover:shadow-[#00FFFF] flex items-center h-fit py-4 px-6 rounded-[32px] gap-[12px]">
+          <a href = "#">
           <img
             src="/headset.svg"
             alt="headset"
@@ -28,7 +28,24 @@ const Footer = () => (
           <span className="font-normal text-[16px] text-white">
             Enter Metaverse
           </span>
+          </a>
         </button>
+
+        {/* <button
+  type="button"
+  className="relative inline-block font-normal text-[16px] text-white bg-[#0ef] rounded-[32px] px-6 py-4 shadow-xl transition-transform transform hover:scale-105 hover:bg-opacity-80 hover:shadow-neon"
+>
+  <a href="#">
+    <img
+      src="/headset.svg"
+      alt="headset"
+      className="w-[24px] h-[24px] object-contain"
+    />
+    <span className="relative z-10">Enter Metaverse</span>
+  </a>
+</button> */}
+
+        
       </div>
 
       <div className="flex flex-col">
@@ -36,10 +53,10 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            METAVERSE
+            METAVERSUS
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 - 2024 Metaverse. All rights reserved.
+            Copyright © 2023 - 2024 Metaversus. All rights reserved.
           </p>
 
           <div className="flex gap-4">
