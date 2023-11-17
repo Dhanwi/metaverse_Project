@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 import styles from '../styles';
 import { exploreWorlds } from '../constants';
@@ -27,13 +28,16 @@ const Explore = () => {
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
+            <Link href="https://jsm-real-estate.vercel.app/" key={world.id}>
+          {/* <a> */}
             <ExploreCard
-              key={world.id}
               {...world}
               index={index}
               active={active}
               handleClick={setActive}
             />
+          {/* </a> */}
+        </Link>
           ))}
         </div>
       </motion.div>
