@@ -26,10 +26,10 @@ Click on this Live Site, to see a fully motioned website
 
 ![image](https://github.com/Dhanwi/metaverse_Project/assets/86427983/66a61871-92d9-4cd4-8aca-af85c22bf830)
 
-#Metaverse Project – Built with Next.js 13, Framer Motion & Tailwind CSS
+# Metaverse Project – Built with Next.js 13, Framer Motion & Tailwind CSS
 The Metaverse Project is a modern, high-performance web application designed and deployed using Next.js 13. This project showcases advanced animations and sleek UI components, blending cutting-edge technologies such as Framer Motion for smooth, fluid animations and Tailwind CSS for rapid, responsive styling. The project emphasizes interactive user experience, performance optimization, and modern web development techniques.
 
-#Key Features:
+# Key Features:
 Next.js 13 – The Latest in Web Frameworks:
 
 The project is built on Next.js 13, leveraging its powerful features such as optimized routing, server-side rendering (SSR), and static site generation (SSG). This enables fast load times, improved SEO, and a seamless user experience.
@@ -51,7 +51,7 @@ Lazy Loading: Key assets and images are lazy-loaded, improving page load speed a
 Deployed on Vercel:
 
 The project is deployed on Vercel, taking advantage of its seamless integration with Next.js for automatic builds, preview environments, and fast global delivery through its edge network.
-#Technologies Used:
+# Technologies Used:
 Next.js 13: The framework for React applications, offering powerful SSR and SSG capabilities.
 Framer Motion: A library for animating components with ease, adding highly customizable animations to the user interface.
 Tailwind CSS: A utility-first CSS framework for designing responsive, modern interfaces quickly.
